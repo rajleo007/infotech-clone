@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(129, 129, 248, 0.685);
+    align-items: center;
+    padding: 15px 50px 15px 50px;
+    border: 1px solid white;
+    
+}
+
+header section img{
+    width: 50px;
+    height: 50px;
+}
+header nav{
+    color: white;
+}
+header nav ul{
+    display: flex;
+    gap: 5px;
+
+}
+header nav ul li{
+    margin-left: 50px;
+    list-style: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header nav ul li:hover{ background-color: blue;
+
+
+}
+body{
+    background-color:black;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+}
+.first h1{
+    color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:50px;
+  font-weight: bold;
+
+}
+.highlight{
+    color: aqua;
+}
+.container img{
+    height: 420px;
+    width: 420px;
+    color: transparent;
+
+
+}
+.first p{
+    color: rgb(65, 62, 62);
+    font-size: 50px;
+}
+.second img{
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+
+}
+.third h2{
+    color: white;
+    
+    
+}
+
+.third{
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    border-left: 15px solid aqua;
+    margin-left:25px;
+    padding: 10px;
+    
+}
+.third p{
+    color: rgb(141, 65, 65);
+    
+}
+footer{
+    color: rgb(39, 35, 35);
+    background-color:rgba(129, 129, 248, 0.685) ;
+    display: flex;
+    padding: 50px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+ 
+}
+footer li{
+    list-style: none;
+}
+footer h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 15px;
+    border-left: 5px solid aqua;
+    padding-left: 10px;
+}
+footer input{
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+footer p{
+    margin-top: 10px;
+}
+.main{
+    padding: 50px;
+}
+.card img{
+    height: 30px;
+    width: 50px;
+}
+.card {
+    color: rgb(124, 97, 97);
+    background-color: midnightblue;
+    border-radius: 8px;
+    padding: 15px;
+    margin-left: 25px;
+    margin-right: 35px;
+
+}
+.card-img{
+    height: 30px;
+    width: 50px;
+}
+.card h2{
+    color: white;
+}
+.card p{
+    color: aqua;
+    font-weight: bold;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fourth h2{
+    color: white;
+
+}
+.fourth p{
+    color:rgb(27, 21, 21) ;
+    font-size: 35px;
+    font-weight: bold;
+}
+.fourth{
+    margin-left: 25px;
+    border-left: 10px solid aqua;
+    margin-right: 25px;
+}
+.tech-stack p{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+
+.tech-stack section{
+    border: 2px solid aqua;
+    padding: 25px;
+    width: 200px;
+    border-radius: 5px;
+    
+
+    
+
+}
+.tech-stack section img{
+    height: 45px;
+    width: 55px;
+    padding-right:2px;
+}
+.tech-stack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px;
+}
+.fifth section img{
+    height: 75px;
+    width: 95px;
+}
+.fifth section h2 {
+    color: beige;
+}
+.fifth section p{
+    color: beige;
+}
+.fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid aqua;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.pictube img{
+    height: 100px;
+    width: 125px;
+    margin-left: 1740px
+    
+}
+.sixth h2{
+    color: beige;
+    font-size: 50px;
+}
+.sixth p{
+    color: bisque;
+    font-size: 25px;
+}
+.sixth{
+    border-left: 5px solid aqua;
+    margin-left: 25px;
+    padding: 20px;
+}
+.picsart img{
+    width: 500px;
+    height: 300px;
+    
+}
+.picsart{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.seven h2{
+    color: bisque;
+    font-size: 50px;
+}
+.seven p{
+    color: azure;
+    font-size: 25px;
+
+}
+.seven{
+    border-left: 5px solid aqua;
+    margin-left: 25px;
+    padding: 20px;
+}
+.cardml img{
+    height: 50px;
+    width: 75px;
+}
+.cardml h2{
+    color: beige;
+}
+.cardml p{
+    color: rgb(18, 74, 126);
+    font-size: 25px;
+}
+.cardml{
+    background-color: midnightblue;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 35px;
+    padding: 15px;
+    width: 2500px;
+
+}
+.best{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardmp img{
+    height: 50px;
+    width: 75px;
+
+}
+.cardmp h2{
+    color: beige;
+}
+.cardmp p{
+    color: rgb(18, 74, 126);
+    font-size: 25px;
+}
+.cardmp{
+    background-color: midnightblue;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 35px;
+    padding: 15px;
+    width: 2500px;
+
+}
+.bestone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lol img{
+ height: 100px;
+ width: 120px;
+ margin-left: 1740px;
+}
+.new{
+border-left: 5px solid aqua;
+padding: 15px;
+}
+footer div img{
+    height: 25px;
+    width: 30px;
+    position: relative;
+}
